@@ -35,6 +35,12 @@ def analyze_text(text, min_word_length=3):
         sum(words_per_sentence) / sentence_count
         if sentence_count else 0
     )
+    if avg_words_per_sentence<10:
+         readinglevel="Easy"
+    elif 10<=avg_words_per_sentence<=20:
+        readinglevel="Medium"
+    else:
+         readinglevel="Complex"
     # Word stats
     # Computing avg word length
     avg_word_length=sum([len(word) for word in words]) / len(words) if words else 0
@@ -50,6 +56,10 @@ def analyze_text(text, min_word_length=3):
     except ValueError:
         top=5
     top_w=c.most_common(top)
+    lexical_diversity=len(set(words))/len(words)
+    allwordstring="".join(words)
+    b=Counter(allwordstring)
+    top_l=b.most_common(5)
     return{
         "total_words": len(words),
         "unique_words": len(set(words)),
@@ -59,5 +69,9 @@ def analyze_text(text, min_word_length=3):
         "longest_word": longest_word,
         "shortest_word": shortest_word,
         "top5": top_w,
+        "topletters": top_l,
+        "lexical_diversity": lexical_diversity*100,
+        "readinglevel": readinglevel
     }
+    
 # analyze_text(text="Twenty-two years after the Jurassic Park disaster on Isla Nublar in 1993,[b] a new dinosaur theme park called Jurassic World has been built on the island, owned by Masrani Global Corporation in affiliation with InGen, which created the dinosaurs. Brothers Zach and Gray Mitchell visit the park, where their aunt Claire Dearing works as the operations manager. She assigns her assistant Zara to guide them, but they evade her and explore on their own. don't go 1980") 

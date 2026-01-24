@@ -10,9 +10,14 @@ def display_results(analysis):
     print(f"Average words per sentence: {analysis['avg_words_per_sentence']:.2f}")
     print(f"Longest word: {analysis['longest_word']}")
     print(f"Shortest word (>=3 chars): {analysis['shortest_word']}")
+    print(f"Lexical diversity(in percent[%]): {analysis['lexical_diversity']:.2f}")
+    print(f"Reading Level: {analysis['readinglevel']}")
     print("Most common words:")
     for word, count in analysis["top5"]:
         print(f"{word:<15}: {count}")
+    print("Most common letters:")
+    for allwordstring, count in analysis["topletters"]:
+        print(f"{allwordstring:<5}: {count}")
         
 def main():
     print("Text Analyzer started!\n")
