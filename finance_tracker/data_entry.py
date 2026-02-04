@@ -13,7 +13,7 @@ def get_date(prompt, allow_default=False):
         valid_date = datetime.strptime(date_str, date_format)
         return valid_date.strftime(date_format)
     except ValueError:
-        print("Invalid date frmat. Please enter the date in dd-mm-yyyy format")
+        print("Invalid date format. Please enter the date in dd-mm-yyyy format")
         return get_date(prompt, allow_default)
 
 
@@ -36,6 +36,14 @@ def get_category():
     print("Invalid category. Please enter 'I' for Income or 'E' for Expense.")
     return get_category()
 
+def get_expense_category():
+    categories = ["Food", "Transportation", "Entertainment", "Utilities", "Other"]
+    print("Select expense category:")
+    for i, c in enumerate(categories, 1):
+        print(f"{i}. {c}")
 
-def get_descriptipn():
+    choice = int(input("Enter choice number: "))
+    return categories[choice - 1]
+
+def get_description():
     return input("Enter a description (optional): ")

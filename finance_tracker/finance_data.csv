@@ -1,33 +1,23 @@
-date,amount,category,description
-01-07-2024,1000,Income,Salary
-02-07-2024,50,Expense,Groceries
-03-07-2024,150,Expense,Utilities
-04-07-2024,200,Income,Freelance Work
-05-07-2024,75,Expense,Restaurant
-06-07-2024,100,Expense,Transport
-07-07-2024,500,Income,Bonus
-08-07-2024,30,Expense,Snacks
-09-07-2024,250,Income,Stock Dividends
-10-07-2024,90,Expense,Entertainment
-11-07-2024,60,Expense,Coffee
-12-07-2024,120,Expense,Gas
-13-07-2024,80,Expense,Books
-14-07-2024,150,Expense,Clothing
-15-07-2024,1100,Income,Salary
-16-07-2024,40,Expense,Stationery
-17-07-2024,180,Expense,Utilities
-18-07-2024,250,Income,Freelance Work
-19-07-2024,70,Expense,Restaurant
-20-07-2024,130,Expense,Transport
-21-07-2024,600,Income,Bonus
-22-07-2024,35,Expense,Snacks
-23-07-2024,300,Income,Stock Dividends
-24-07-2024,100,Expense,Entertainment
-25-07-2024,55,Expense,Coffee
-26-07-2024,140,Expense,Gas
-27-07-2024,90,Expense,Books
-28-07-2024,170,Expense,Clothing
-29-07-2024,1200,Income,Salary
-30-07-2024,45,Expense,Stationery
-31-07-2024,190,Expense,Utilities
-20-07-2023,124.0,Expense,Groceries
+date,amount,type,expense_category,description
+01-02-2026,65000,Income,,Monthly salary credited
+02-02-2026,250,Expense,Food,Morning tea and snacks
+02-02-2026,180,Expense,Transportation,Auto rickshaw to office
+03-02-2026,1200,Expense,Food,Lunch with colleagues
+03-02-2026,499,Expense,Utilities,Mobile recharge
+04-02-2026,300,Expense,Entertainment,Movie ticket
+05-02-2026,2200,Expense,Food,Dinner at restaurant
+06-02-2026,150,Expense,Transportation,Bus pass recharge
+07-02-2026,999,Expense,Utilities,Internet broadband bill
+08-02-2026,1200,Expense,Entertainment,Online game subscription
+10-02-2026,5000,Income,,Freelance project payment
+11-02-2026,350,Expense,Food,Grocery shopping
+12-02-2026,200,Expense,Transportation,Cab ride
+14-02-2026,1800,Expense,Entertainment,Weekend outing with friends
+15-02-2026,750,Expense,Utilities,Electricity bill
+18-02-2026,400,Expense,Food,Coffee and snacks
+20-02-2026,2500,Expense,Other,Clothing purchase
+22-02-2026,600,Expense,Food,Family dinner
+25-02-2026,300,Expense,Transportation,Metro card top-up
+27-02-2026,1000,Expense,Other,Unexpected medical expense
+
+04-02-2026,100.0,Expense,Transportation,train ticket to mulund
