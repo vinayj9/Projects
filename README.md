@@ -66,18 +66,30 @@ Major Project - 💰 Finance Tracker
 A CLI-based personal finance tracker built with Python, Pandas, and Matplotlib to manage and visualize income and expenses.
 
 🚀 Features
-Add Income & Expense transactions/n
-Expense categorization/n
-Date-range filtering/n
-Financial summary (Income, Expense, Net Savings)/n
-Time-series income vs expense plot/n
-Expense breakdown (pie & bar charts)/n
-Persistent CSV storage/n
+Add Income & Expense transactions
+
+Expense categorization
+
+Date-range filtering
+
+Financial summary (Income, Expense, Net Savings)
+
+Time-series income vs expense plot
+
+Expense breakdown (pie & bar charts)
+
+Persistent CSV storage
 
 🧠 Concepts Used
-OOP (class-based design)/n
-File Handling (CSV)/n
-Input Validation & Exception Handling/n
-Pandas (Data Analysis & Aggregation)/n
-Matplotlib (Data Visualization)/n
-Modular Code Structure/n
+OOP (class-based design)
+
+File Handling (CSV)
+
+Input Validation & Exception Handling
+
+Pandas (Data Analysis & Aggregation)
+
+Matplotlib (Data Visualization)
+
+Modular Code Structure
+
