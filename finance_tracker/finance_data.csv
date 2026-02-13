@@ -21,3 +21,4 @@ date,amount,type,expense_category,description
 27-02-2026,1000,Expense,Other,Unexpected medical expense
 
 04-02-2026,100.0,Expense,Transportation,train ticket to mulund
+10-02-2026,300.0,Expense,Food,grocery 
