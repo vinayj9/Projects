@@ -25,22 +25,18 @@ CRUD Operations,
 Iteration,
 Basic Data Structuring
 
-🧩 Project4 – Refactored Contact Book
+🧩 Project4 – Persistent Contact Book (JSON)
 
 Concepts Used:
 Functions,
 Code Modularization,
-Separation of Concerns
-
-💾 Project5 – Persistent Contact Book (JSON)
-
-Concepts Used:
+Separation of Concerns,
 File Handling,
 json Module,
 Exception Handling (try-except),
 Data Persistence
 
-📊 Project6 – Text Analysis Tool
+📊 Project5 – Text Analysis Tool
 
 Concepts Used:
 String Manipulation,
@@ -48,7 +44,7 @@ List Comprehensions,
 collections.Counter,
 File Processing
 
-🌦️ Project7 – Weather CLI App
+🌦️ Project6 – Weather CLI App
 
 Concepts Used:
 requests Module,
@@ -57,7 +53,7 @@ JSON Parsing,
 Modular Code Design,
 Error Handling
 
-📚 Project8 – Library Management System
+📚 Project7 – Library Management System
 
 Concepts Used:
 Object-Oriented Programming (OOP),
