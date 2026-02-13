@@ -61,11 +61,12 @@ Classes & Objects,
 Methods & Attributes,
 System Modeling
 
-Major Project - 💰 Finance Tracker
+💰 Major Project - Finance Tracker
 
 A CLI-based personal finance tracker built with Python, Pandas, and Matplotlib to manage and visualize income and expenses.
 
 🚀 Features
+
 Add Income & Expense transactions
 
 Expense categorization
@@ -81,6 +82,7 @@ Expense breakdown (pie & bar charts)
 Persistent CSV storage
 
 🧠 Concepts Used
+
 OOP (class-based design)
 
 File Handling (CSV)
